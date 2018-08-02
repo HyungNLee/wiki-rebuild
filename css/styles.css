@@ -9,6 +9,7 @@ body {
 }
 
 .mainPage {
+  float:right;
   width:80%;
   background-color: white;
 
@@ -61,4 +62,58 @@ hr {
   border-top: 1px solid lightgrey;
   padding-left: 0;
   margin-left: 12px;
+}
+
+.topLinks {
+  text-align: right;
+}
+
+.Tabs {
+  display: block;
+  height: 1.9em;
+  padding-left: 0.615em;
+  padding-right: 0.615em;
+  color: #0645ad;
+  font-size: 13px;
+}
+
+#bannercolor {
+  background-color: #f6f6f6;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+  margin: 18px;
+}
+
+.headerBanner {
+  font-size: 22.68px;
+  font-family: sans-serif;;
+  margin: 30px;
+  line-height: 1.9;
+}
+
+.middleBanner {
+  font-size: 13.3px;
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 18px;
+}
+
+.lowerBanner {
+  font-size: 11.9px;
+  font-family: sans-serif;
+  line-height: 1.6;
+  margin: 71px;
+}
+
+.bannerList {
+  margin: 15px 0px;
+  line-height: 1.6;
+  font-size: 13.3px;
+  font-family: sans-serif;
+  color: #0645ad;
+}
+
+a:link {
+  color: #0645ad;
 }
